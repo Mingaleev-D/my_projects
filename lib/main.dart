@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_projects/ui/pages/on_boarding_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
+        // colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
       ),
-      home: const Scaffold(),
+      home: const OnBoardingPage(),
     );
   }
 }
